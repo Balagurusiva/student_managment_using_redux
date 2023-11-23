@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.student_form{
+    @apply flex sm:flex-col md:flex-row  w-[100%] justify-around text-[20px]  
+}
+
+.input_area{
+    @apply flex gap-5 mx-[10%] flex-row w-[100%]
+}
+
+input{
+    @apply bg-black border-b  outline-none text-[16px]  ;
+    
+     
+}
+
+input:focus{
+    background-color: black;
+}
+
+.form_submit{
+    @apply   border-2 p-3 rounded-[12px]  mt-5
+}
+
+.table_btn{
+    @apply border-2 px-3 rounded-[8px]
+}
+
+.edit_btn{
+    @apply border-blue-300  text-blue-300
+}
+.delete_btn{
+    @apply border-red-300 text-red-300
+}
+
