@@ -38,7 +38,9 @@ const StudentList = () => {
                                 className='table_btn delete_btn'
                                 onClick={()=>handleDeleteStudent(student.EMail)}
                                 >Delete</button>
+                                <Link className='table_btn link_tn' to={`/detail/${student.id}`}>Details</Link>
                             </td>
+                             
                         </tr>
                     ))}
                 </tbody>

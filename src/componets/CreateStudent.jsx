@@ -24,7 +24,7 @@ const CreateStudent = () => {
 
     const handleAddStudent = () => {
         if (student.Name.trim(' ').length !== 0) {
-            dispatch(addStudent(student))
+            dispatch(addStudent({...student,id:Date.now()}))
             setStudent({
                 Name: '',
                 Course: '',
