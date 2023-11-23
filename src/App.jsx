@@ -5,6 +5,7 @@ import CreateStudent from './componets/CreateStudent'
 import { Link } from 'react-router-dom'
 import Home from './componets/Home'
 import EditStudent from './componets/EditStudent'
+import Details from './componets/Details'
 
 
 const App = () => {
@@ -22,7 +23,9 @@ const App = () => {
                 <Routes>
                     <Route path='/create' element={<CreateStudent />} />
                     <Route path='/edit/:email' element={<EditStudent />} />
+                    <Route path = '/detail/:id' element ={<Details />} />
                     <Route path='/' element = {<Home />} />
+                    
                 </Routes>
             </Router>
         </div>

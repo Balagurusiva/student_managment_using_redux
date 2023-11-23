@@ -25,13 +25,20 @@ input:focus{
 }
 
 .table_btn{
-    @apply border-2 px-3 rounded-[8px]
+    @apply border-2  rounded-[8px]  px-3
 }
 
 .edit_btn{
     @apply border-blue-300  text-blue-300
 }
 .delete_btn{
-    @apply border-red-300 text-red-300
+    @apply border-red-300 text-red-300 mr-2
 }
 
+.detail_btn{
+    @apply border-yellow-300 text-yellow-300
+}
+
+label{
+    @apply font-bold
+}

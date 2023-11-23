@@ -2,11 +2,11 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 import StudentList from './StudentList'
-import NoStudent from './NoStudent'
+ 
 
 const Home = () => {
     const studentList = useSelector((state) => state.studentList)
-
+  console.log(studentList)
  
   return (
     <div className="flex flex-col ">

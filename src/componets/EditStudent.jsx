@@ -30,7 +30,7 @@ const EditStudent = () => {
      
 
         <div className='flex justify-center flex-col items-center w-[100%] '>
-            <p className='text-[30px]'>Student Creation</p>
+            <p className='text-[30px]'>Edit Student Details</p>
             <div className=' p-4 student_form gap-5'>
                 <div className='flex flex-col gap-3'>
                     <div className='input_area'>
